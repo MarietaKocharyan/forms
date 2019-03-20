@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.items {
+  display: block;
+  font-size: small;
+  color: black;
+}
+
+.classes.textField {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 400px;
+  flex-direction: column;
+  display: inline-flex
+}
+
+.classes.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center,
+}
+
+#outlined-email-input-helper-text {
+  color: red;
+}
